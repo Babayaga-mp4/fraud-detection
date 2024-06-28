@@ -1,7 +1,7 @@
 # fraud-detection
 A production grade FastAPI microservice hosting an ML Model trained for Fraud Detection
 
-.
+`
 ├── app  # Contains the main application files.
 │   ├── __init__.py   # this file makes "app" a "Python package"
 │   ├── main.py       # Initializes the FastAPI application.
@@ -38,3 +38,4 @@ A production grade FastAPI microservice hosting an ML Model trained for Fraud De
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+`
