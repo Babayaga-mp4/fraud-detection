@@ -1,0 +1,1 @@
+LABEL_COLORS = ["#0101DF", "#DF0101"]

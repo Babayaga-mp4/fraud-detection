@@ -1,5 +1,7 @@
 # fraud-detection
-A production grade FastAPI microservice hosting an ML Model trained for Fraud Detection
+A production grade FastAPI microservice hosting an ML Model trained for Fraud Detection.
+
+Contain both Batch Inference, and online inference
 
 ```
 ├── app  # Contains the main application files.
@@ -30,6 +32,8 @@ A production grade FastAPI microservice hosting an ML Model trained for Fraud De
 │       ├── __init__.py
 │       ├── authentication.py  # Defines functions for authentication.
 │       └── validation.py      # Defines functions for validation.
+├── data
+|   ├─ <name>.csv      # Contains csv data source
 ├── tests
 │   ├── __init__.py
 │   ├── test_main.py
